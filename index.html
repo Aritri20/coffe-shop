@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our cafe</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-bttn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> coffee <i class="fas fa-mug-hot"></i> </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+    </nav>
+
+    <a href="#" class="bttn">book a table</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <a href="#" class="bttn">buy one now</a>
+        </div>
+
+        <div class="image">
+            <img src="image/home-img-1.png" class="main-home-image" alt="">
+        </div>
+
+    </div>
+
+    <div class="image-slider">
+        <img src="image/home-img-1.png" alt="">
+        <img src="image/home-img-2.png" alt="">
+        <img src="image/home-img-3.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about us <span>why choose us</span> </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">what's make our coffee special!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse et commodi, ad, doloremque obcaecati maxime quam minima dolore mollitia saepe quos, debitis incidunt. Itaque possimus adipisci ipsam harum at autem.</p>
+            <a href="#" class="bttn">read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="image/about-icon-1.png" alt="">
+                    <h3>quality coffee</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/about-icon-2.png" alt="">
+                    <h3>our branches</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/about-icon-3.png" alt="">
+                    <h3>free delivery</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+    <form name="frm1">
+
+    <h1 class="heading"> our menu <span>popular menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/menu-1.png" alt="">
+            <div class="content" id="item1">
+                
+                <div class="title" name="t1" value="Black Cocolate"><h3>Hot Cocolate</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.299</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b1" type="button" id="i1" onclick="cal1()" value="299">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/menu-2.png" alt="">
+            <div class="content" id="item2">
+                <div class="title" value="Iced Coffee"><h3>Iced Coffee</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.180</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b2" type="button" id="i2" onclick="cal2()" value="180">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/menu-3.png" alt="">
+            <div class="content" id="item3">
+                <div class="title" value="Latte"><h3>Latte</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.190</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b3" type="button" id="i3" onclick="cal3()" value="190">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/menu-4.png" alt="">
+            <div class="content" id="item4">
+                <div class="title" value="Capucchino"><h3>Capucchino</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.199</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b4" type="button" id="i4" onclick="cal4()" value="199">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/menu-5.png" alt="">
+            <div class="content" id="item5">
+                <div class="title" value="Hot chocolate coffee"><h3>Hot chocolate coffee</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.99</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b5" type="button" id="i5" onclick="cal5()" value="99">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/menu-6.png" alt="">
+            <div class="content" id="item6">
+                <div class="title" value="House Special Coffee"><h3>House special coffee</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
+                <span class="cartP">Rs.199</span>
+                <br><br>
+                <span>
+                <button class="add-item-button bttn" name="b6" type="button" id="i6" onclick="cal6()" value="199">Add Item </button>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+</section>
+
+<!-- menu section ends -->
+
+
+<!-- cart section starts-->
+
+<section>
+    <div class="cart" id="cart">
+
+    
+    <div class="title"><h1 class="heading"> On Your Way <span>My Cart</span> </h1></div>
+    
+    <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Items</span>
+                
+    </div>
+
+     <div id="t" class="cart-items">
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title1" class="new-cart"></div>
+                      
+
+                
+                           <div id="div1" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove1">   
+                    </div>
+                </div>
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title2" class="new-cart"></div>
+                      
+
+                
+                           <div id="div2" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove2">   
+                    </div>
+                </div>
+
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title3" class="new-cart"></div>
+                      
+
+                
+                           <div id="div3" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove3">   
+                    </div>
+                </div>
+                
+
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title4" class="new-cart"></div>
+                      
+
+                
+                           <div id="div4" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove4">   
+                    </div>
+                </div>
+
+
+               <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title5" class="new-cart"></div>
+                      
+
+                
+                           <div id="div5" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove5">   
+                    </div>
+                </div>
+
+                  
+
+                  <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <div id="title6" class="new-cart"></div>
+                      
+
+                
+                           <div id="div6" class="cart-item cart-column" > </div>
+                </div>
+                    
+                    <div class="cart-item cart-column" id="remove6">   
+                    </div>
+                </div>
+
+
+
+
+    </div>
+
+    
+
+    <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0</span>
+            </div>
+        <div class="p-button">
+            <button class="btn-purchase" type="button">PURCHASE</button>
+        </div>
+
+        
+
+</div>
+
+</section>
+
+<!-- cart section ends-->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> reviews <span>what people says</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-1.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-3.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-4.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+<!-- book section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> North Kolkata </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> South Kolkata </a>
+        
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> book </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abc@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Kolkata, india = 700050 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+    
+
+</section>
+
+<!-- footer section ends -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+<script type="text/javascript" src="js/script1.js"></script>
+
+</body>
+</html>
